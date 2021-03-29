@@ -64,6 +64,11 @@ input:focus, select:focus, textarea:focus {
 select {
     width: 99%;
     background-color: white;
+    appearance: none;
+    background-image: url(./icones/icons8-sort-down-24.png);
+    background-size: 30px;
+    background-position: calc(98%) center;
+    background-repeat: no-repeat;
 }
 textarea {
     resize: none;
@@ -121,8 +126,16 @@ form {
     justify-content: space-around;
     margin-bottom: 2.5rem;
 }
+#choiImage {
+    border: 1px solid #2F80ED;
+    width: 60%;
+    height: 30%;
+    transform: translateX(-1vw);
+}
 .image {
-    width: 50%;
+    width: 40%;
+    border: 1px solid #2F80ED;
+    transform: translateX(-2vw);
 }
 
 .coloneTexte {
