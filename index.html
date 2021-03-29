@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire utilisateurs</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="titre">Répertoire de contact</h1>
+        <div class="champ">
+            <div class="droite">
+                <div class="titredroite">
+                    <h2 class="titre">Formulaire de contact</h2>
+                </div>
+                <div class="formulairedroite">
+                    <form action="" method="post">
+                        <fieldset>
+                            <legend>Prénom</legend>
+                            <input type="text" id="prenom">
+                        </fieldset>
+                        <fieldset> 
+                            <legend>Nom</legend>
+                            <input type="text" id="nom">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Groupe</legend>
+                            <select name="" id="groupe">
+                                <option value="Groupe 1" disabled hidden selected></option>
+                                <option value="Groupe 1">Groupe 1</option>
+                                <option value="Groupe 2">Groupe 2</option>
+                            </select>
+                    
+                        </fieldset>
+                        <fieldset>
+                            <legend>Bio</legend>
+                            <textarea name="" id="bio"></textarea>
+                        </fieldset>
+                        <div class="choixImage">
+                            <div class="choisirImage">
+                                <input type="file" id="choiImage" accept=".png,.jpg, .jpeg">
+                            </div>
+                            <div class="image">
+                                <img src="./images/trump2.jpg" id="img1" alt="image du contact" width="80%">
+                            </div>
+                        </div>
+                        <div class="cli">
+                            <button class="btn cree" id="btnCreer" type="submit">Créer</button>
+                            <button class="btn reinit">Réinit.</button>
+                        </div>
+                       
+                    </form>
+                </div>
+               
+            </div>
+            <div class="gauche">
+                <div class="titregauche">
+                    <h2 class="titre">Liste de contact</h2>
+                </div>
+                
+                <div class="zone-users">
+                    <!-- <div class="lineUser"> -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+   
+
+    <!-- <script src="formulaire.js"></script> -->
+    <script src="test.js"></script>
+</body>
+</html>
