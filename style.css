@@ -160,7 +160,7 @@ form {
 .zoneUtilisateurs {
     display: flex;
     flex-direction: column;
-    height: 85vh;
+    height: 110vh;
     overflow-y: scroll;
 }
 .lineUser {
