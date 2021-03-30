@@ -18,7 +18,7 @@
                     <h2 class="titre">Formulaire de contact</h2>
                 </div>
                 <div class="formulairedroite">
-                    <form action="" method="post">
+                    <form action="#" method="post">
                         <fieldset>
                             <legend>Prénom</legend>
                             <input type="text" id="prenom">
@@ -29,8 +29,8 @@
                         </fieldset>
                         <fieldset>
                             <legend>Groupe</legend>
-                            <select name="" id="groupe">
-                                <option value="Groupe 1" disabled hidden selected></option>
+                            <select name="groupe" id="groupe">
+                                <option value="Groupe 1" disabled hidden selected>veuillez choisir un groupe</option>
                                 <option value="Groupe 1">Groupe 1</option>
                                 <option value="Groupe 2">Groupe 2</option>
                             </select>
@@ -38,14 +38,14 @@
                         </fieldset>
                         <fieldset>
                             <legend>Bio</legend>
-                            <textarea name="" id="bio"></textarea>
+                            <textarea name="biographie" id="biographie"></textarea>
                         </fieldset>
                         <div class="choixImage">
                             <div class="choisirImage">
-                                <input type="file" id="choiImage" accept=".png,.jpg, .jpeg">
+                                <input type="file" id="selectionImage" accept=".png,.jpg, .jpeg">
                             </div>
                             <div class="image">
-                                <img src="./images/imgcontacts.png" id="img1" alt="image du contact" width="80%">
+                                <img src="./images/imgcontacts.png" id="img1" alt="image du contact">
                             </div>
                         </div>
                         <div class="cli">
@@ -62,14 +62,13 @@
                     <h2 class="titre">Liste de contact</h2>
                 </div>
                 
-                <div class="zone-users">
-                    <!-- <div class="lineUser"> -->
-
-                    </div>
+                <div class="zoneUtilisateurs">
 
                 </div>
 
             </div>
+
+            
 
         </div>
 
@@ -77,6 +76,6 @@
    
 
     <!-- <script src="formulaire.js"></script> -->
-    <script src="test.js"></script>
+    <script src="formulaire.js"></script>
 </body>
 </html>
