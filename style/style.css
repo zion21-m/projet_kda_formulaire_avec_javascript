@@ -65,7 +65,7 @@ select {
     width: 99%;
     background-color: white;
     appearance: none;
-    background-image: url(./icones/icons8-sort-down-24.png);
+    background-image: url(../icones/icons8-sort-down-24.png);
     background-size: 30px;
     background-position: calc(98%) center;
     background-repeat: no-repeat;

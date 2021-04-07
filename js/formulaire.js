@@ -79,16 +79,9 @@ let clicked = function(e){
     })
 }
 
-let reinialiser = function(e) {
-  e.preventDefault();
-
-  while (zoneUtilisateurs.firstChild) {
-    zoneUtilisateurs.removeChild(zoneUtilisateurs.firstChild);
-  }
-}
 
 boutonCreer.addEventListener('click', clicked);
-boutonReinitialiser.addEventListener('click', reinialiser);
+
 
 
     
